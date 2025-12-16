@@ -1,0 +1,184 @@
+body {
+    background-color: whitesmoke;
+    font-style: normal;
+    margin: 0 auto;
+    width: 60%;
+}
+/* header styling starts here */
+
+.container {
+    width: 100%;
+    
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 0;
+}
+.header ul .logo a{
+   font-size: xx-large;
+   margin-left:0px;
+}
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    padding: 10px;
+}
+hr {
+    width: 100%;               
+    border: none;
+    border-top: 1px solid grey;
+}
+
+/* header styling ends here */
+
+/* profile section starts here */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.profile-container > div:first-child {
+    flex: 1; 
+    min-width: 300px;
+}
+
+.lotus img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+.profile-container p {
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.profile-container a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.profile-container a:hover {
+    background-color: #333;
+}
+
+/* profile section ends here */
+
+/* body container starts here */
+.body-container1{
+    border:1px solid grey;
+    padding:20px;
+    border-radius:8px;
+}
+
+/* body container ends here */
+
+/* cards section starts here */
+.profile-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.profile-image1,
+.profile-image2 { 
+    max-width: 300px; 
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile-image1 {
+    background-color: rgb(154, 145, 204);
+}
+
+.profile-image2 {
+    background-color: rgb(216, 189, 121);
+}
+
+.profile-image1 .image,
+.profile-image2 .image {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -60px;
+    display: block;
+}
+
+.profile-image1 img,
+.profile-image2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-image1 p,
+.profile-image2 p {
+    margin: 5px 0;
+    text-align: center;
+}
+/* cards section ends here */
+/* form section starts here */
+.form-container {
+    border-radius: 12px;
+    border:1px solid grey;
+    border-radius:8px;
+    padding:20px;
+}
+.form-container h3 {
+    margin-bottom: 15px;
+}
+
+.form-container p {
+    margin-bottom: 30px;
+}
+
+form input{
+    width:300px;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid black;
+}
+form textarea{
+     width:630px;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid black;
+}
+form a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    padding: 10px;
+    border:1px solid;
+    border-radius: 8px;
+    background-color:rgb(41, 3, 41);
+}
+
+/* form section ends here */
